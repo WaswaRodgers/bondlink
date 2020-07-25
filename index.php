@@ -1,4 +1,7 @@
-<?php include('includes/header.php'); ?>
+<?php 
+    include('includes/header.php');
+    $current_page = 'home'; 
+?>
 
         <section id="home" class="home">
             <!-- Carousel -->

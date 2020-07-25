@@ -177,7 +177,12 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 #navbar-menu {
     margin: 6px 0;
+
 }
+
+#navbar-menu > .navbar-nav > .underline {
+    text-decoration: underline;
+} 
 .nav.navbar-nav.menu {
     float: right;
 }
