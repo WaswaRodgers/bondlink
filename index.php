@@ -15,8 +15,13 @@
                                 <h3>We are certified Bank Guarantors</h3>
                                 <h1>Bank Guarantees Services</h1>
                                 <h1 class="second_heading">Try with us</h1>
-                                <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
-                                <a  class="btn know_btn">Read More</a>
+                                <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    <span id="dots">...</span><span id="more">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</span></p>
+                                <!--<a  class="btn know_btn">Read More</a>-->
+                                <button onclick = "handleReadMoreLess()" id="myBtn">Read more</button>
                             </div>					
                         </div>
                     </div>
@@ -40,7 +45,13 @@
                                 <h1>Bank Guarantees Services</h1>
                                 <h1 class="second_heading">Try with us</h1>
                                 <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
-                                <a  class="btn know_btn">Read More</a>
+                                <span id="dots">...</span><span id="more">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</span></p>
+                                <!--<a  class="btn know_btn">Read More</a>-->
+                                <button onclick = "handleReadMoreLess()" id="myBtn">Read more</button>
+                                
                             </div>  				
                         </div>
                     </div>
@@ -71,7 +82,12 @@
                             <h2>About Our Company</h2>
                             <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
                             <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
-                            <a  class="btn know_btn">Read More</a>
+                            <span id="dots">...</span><span id="more">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</span></p>
+                                <!--<a  class="btn know_btn">Read More</a>-->
+                                <button onclick = "handleReadMoreLess()" id="myBtn">Read more</button>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-lg-offset-1">
