@@ -1,7 +1,98 @@
 <?php 
     include('includes/header.php');
-    $current_page = 'home'; 
+    $active_page = 'home'; 
 ?>
+
+                            <style>
+                                #more1 {
+                                    display: none;
+                                }
+
+                                #more2 {
+                                    display: none;
+                                }
+
+                                #more3 {
+                                    display: none;
+                                }
+
+                                #more4 {
+                                    display: none;
+                                }
+
+                                #more5 {
+                                    display: none;
+                                }
+                            </style>
+                            <script>
+                                function handleReadMoreLess() {
+                                    var dots1 = document.getElementById('dots1');
+                                    var dots2 = document.getElementById('dots2');
+                                    var dots3 = document.getElementById('dots3');
+                                    var dots4 = document.getElementById('dots4');
+                                    var dots5 = document.getElementById('dots5');
+                                    var moreText1 = document.getElementById('more1');
+                                    var moreText2 = document.getElementById('more2');
+                                    var moreText3 = document.getElementById('more3');
+                                    var moreText4 = document.getElementById('more4');
+                                    var btnText1 = document.getElementById('myBtn1');
+                                    var btnText2 = document.getElementById('myBtn2');
+                                    var btnText3 = document.getElementById('myBtn3');
+                                    var btnText4 = document.getElementById('myBtn4');
+                                    var btnText5 = document.getElementById('myBtn5');
+
+                                   
+                                    
+                                    if(dots1.style.display === "none") {
+                                        dots1.style.display = "inline";
+                                        btnText1.innerHTML = "Read more";
+                                        moreText1.style.display = "none";
+                                        btnText1.style.color = "white";
+                                    } else {
+                                        dots1.style.display = "none";
+                                        btnText1.innerHTML = "Read less";
+                                        btnText1.style.color = "white";
+                                        moreText1.style.display = "inline";
+                                    }
+
+                                    if(dots2.style.display === "none") {
+                                        dots2.style.display = "inline";
+                                        btnText2.innerHTML = "Read more";
+                                        moreText2.style.display = "none";
+                                        btnText2.style.color = "white";
+                                    } else {
+                                        dots2.style.display = "none";
+                                        btnText2.innerHTML = "Read less";
+                                        btnText2.style.color = "white";
+                                        moreText2.style.display = "inline";
+                                    }
+
+                                    if(dots3.style.display === "none") {
+                                        dots3.style.display = "inline";
+                                        btnText3.innerHTML = "Read more";
+                                        moreText3.style.display = "none";
+                                        btnText3.style.color = "white";
+                                    } else {
+                                        dots3.style.display = "none";
+                                        btnText3.innerHTML = "Read less";
+                                        btnText3.style.color = "white";
+                                        moreText3.style.display = "inline";
+                                    }
+
+                                    if(dots4.style.display === "none") {
+                                        dots4.style.display = "inline";
+                                        btnText4.innerHTML = "Read more";
+                                        moreText4.style.display = "none";
+                                        btnText4.style.color = "white";
+                                    } else {
+                                        dots4.style.display = "none";
+                                        btnText4.innerHTML = "Read less";
+                                        btnText4.style.color = "white";
+                                        moreText4.style.display = "inline";
+                                    }
+                                }
+
+                            </script>
 
         <section id="home" class="home">
             <!-- Carousel -->
@@ -16,12 +107,7 @@
                                 <h1>Bank Guarantees Services</h1>
                                 <h1 class="second_heading">Try with us</h1>
                                 <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    <span id="dots">...</span><span id="more">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</span></p>
-                                <!--<a  class="btn know_btn">Read More</a>-->
-                                <button onclick = "handleReadMoreLess()" id="myBtn">Read more</button>
+
                             </div>					
                         </div>
                     </div>
@@ -33,7 +119,7 @@
                                 <h1>Bank Guarantees Services</h1>
                                 <h1 class="second_heading">Try with us</h1>
                                 <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
-                                <a  class="btn know_btn">Read More</a>
+                        
                             </div>  			
                         </div>
                     </div>
@@ -45,13 +131,7 @@
                                 <h1>Bank Guarantees Services</h1>
                                 <h1 class="second_heading">Try with us</h1>
                                 <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
-                                <span id="dots">...</span><span id="more">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
-                                    We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</span></p>
-                                <!--<a  class="btn know_btn">Read More</a>-->
-                                <button onclick = "handleReadMoreLess()" id="myBtn">Read more</button>
-                                
+                               
                             </div>  				
                         </div>
                     </div>
@@ -82,12 +162,14 @@
                             <h2>About Our Company</h2>
                             <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
                             <p>We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</p>
-                            <span id="dots">...</span><span id="more">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
+                            <span id="dots1">...</span>
+                            
+                            <span id="more1">We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
                                     We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
                                     We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies. 
                                     We Process Bid bonds, Performance bonds and Advanced Guarantee Payments at friendly prices from highly reputable banks and insurance companies</span></p>
                                 <!--<a  class="btn know_btn">Read More</a>-->
-                                <button onclick = "handleReadMoreLess()" id="myBtn">Read more</button>
+                                <button onclick = "handleReadMoreLess()" id="myBtn1" class="btn bg-primary text-white">Read more</button>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-lg-offset-1">
@@ -153,8 +235,18 @@
                         <div class="service_item">
                             <img src="images/service_img1.png" alt="Our Services" />
                             <h3>BID BONDS</h3>
-                            <p>We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.</p>
-                            <a href="#services" class="btn know_btn">Read More</a>
+                            <p>We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            <span id="dots2">...</span>
+                            <span id="more2">We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            </span></p>
+                            <!--<a href="#services" class="btn know_btn">Read More</a>-->
+                            <button onclick = "handleReadMoreLess()" id="myBtn2" class="btn bg-primary text-white">Read more</button>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -162,7 +254,16 @@
                             <img src="images/service_img2.jpg" alt="Our Services" />
                             <h3>PERFORMANCE BONDS</h3>
                             <p>We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.</p>
-                            <a href="#services" class="btn know_btn">Read More</a>
+                            <span id="dots3">...</span>
+                            <span id="more3">We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+
+                            </span>
+                            <!--<a href="#services" class="btn know_btn">Read More</a>-->
+                            <button onclick = "handleReadMoreLess()" id="myBtn3" class="btn bg-primary text-white">Read more</button>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -170,7 +271,74 @@
                             <img src="images/service_img1.png" alt="Our Services" />
                             <h3>ADVANCE PAYMENT GUARANTEES(AGPs)</h3>
                             <p>AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.</p>
-                            <a href="#services" class="btn know_btn">Read More</a>
+                            <span id="dots4">...</span>
+                            <span id="more4">AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            </span>
+                            <!--<a href="#services" class="btn know_btn">Read More</a>-->
+                            <button onclick = "handleReadMoreLess()" id="myBtn4" class="btn bg-primary text-white">Read more</button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="images/service_img1.png" alt="Our Services" />
+                            <h3>BID BONDS</h3>
+                            <p>We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            <span id="dots2">...</span>
+                            <span id="more2">We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            We process bank bid bonds and insurance bid bonds at friedly prices from highly reputable banks and insurers respectively.
+                            </span></p>
+                            <!--<a href="#services" class="btn know_btn">Read More</a>-->
+                            <button onclick = "handleReadMoreLess()" id="myBtn2" class="btn bg-primary text-white">Read more</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="images/service_img2.jpg" alt="Our Services" />
+                            <h3>PERFORMANCE BONDS</h3>
+                            <p>We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.</p>
+                            <span id="dots3">...</span>
+                            <span id="more3">We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+                            We process bank performance bonds and insurance performance bonds at affordable prices from highly reputable banks and insurers respectively.
+
+                            </span>
+                            <!--<a href="#services" class="btn know_btn">Read More</a>-->
+                            <button onclick = "handleReadMoreLess()" id="myBtn3" class="btn bg-primary text-white">Read more</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="images/service_img1.png" alt="Our Services" />
+                            <h3>ADVANCE PAYMENT GUARANTEES(AGPs)</h3>
+                            <p>AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.</p>
+                            <span id="dots4">...</span>
+                            <span id="more4">AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            AGPs are like Performance bonds, but the difference is AGPs are pre-paid while Performance bonds are post paid.
+                            </span>
+                            <!--<a href="#services" class="btn know_btn">Read More</a>-->
+                            <button onclick = "handleReadMoreLess()" id="myBtn4" class="btn bg-primary text-white">Read more</button>
+
                         </div>
                     </div>
                 </div>

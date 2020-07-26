@@ -330,9 +330,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin: 60px 0 20px;
 }
 
-.item .overlay .carousel-caption p span #more {
-    display: none;
-}
+
 
 /* Services */
 #services h2 {

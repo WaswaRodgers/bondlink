@@ -84,10 +84,10 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <h3>Bondlink Experts Co. Ltd.</h3>
                         <ul class="nav navbar-nav menu">
-                            <li class="navbar-item"><a class="nav-link" href="index.php">Home</a></li>                    
-                            <li class="navbar-item"><a class="nav-link" href="#about">About Us</a></li>
-                            <li class="navbar-item"><a class="nav-link" href="#services">Services</a></li>
-                            <li class="navbar-item"><a class="nav-link" href="#contact_form">Contact Us</a></li>
+                            <li class="navbar-item"><a class="nav-link <?php ($active_page == 'home') ? 'border border-primary' : ''; ?>" href="index.php">Home</a></li>                    
+                            <li class="navbar-item"><a class="nav-link <?php ($active_page == '#about') ? 'active' : ''; ?>" href="#about">About Us</a></li>
+                            <li class="navbar-item"><a class="nav-link <?php ($active_page == '#services') ? 'active' : ''; ?>" href="#services">Services</a></li>
+                            <li class="navbar-item"><a class="nav-link <?php ($active_page == '#contact-us') ? 'active' : ''; ?>" href="#contact_form">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>   
