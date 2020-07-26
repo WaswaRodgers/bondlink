@@ -1,6 +1,6 @@
 <?php 
-    include('includes/header.php');
-    $active_page = 'home'; 
+    include_once('includes/header.php');
+     
 ?>
 
                             <style>

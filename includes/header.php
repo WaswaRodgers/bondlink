@@ -1,3 +1,5 @@
+<?php $active_page = basename($_SERVER['PHP_SELF'], ".php"); ?>
+
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
@@ -23,6 +25,16 @@
         <![endif]-->
     </head>
     <body>
+        <style>
+            .highlighted {
+                background-color: #696969;
+                /*border-bottom: 10px solid #696969;*/
+            }
+
+           /* .highlighted:hover {
+                border: 2px solid #;
+            }*/
+        </style>
 
         <!-- Preloader -->
 
@@ -82,12 +94,13 @@
                     </div>
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <h3>Bondlink Experts Co. Ltd.</h3>
                         <ul class="nav navbar-nav menu">
-                            <li class="navbar-item"><a class="nav-link <?php ($active_page == 'home') ? 'border border-primary' : ''; ?>" href="index.php">Home</a></li>                    
-                            <li class="navbar-item"><a class="nav-link <?php ($active_page == '#about') ? 'active' : ''; ?>" href="#about">About Us</a></li>
-                            <li class="navbar-item"><a class="nav-link <?php ($active_page == '#services') ? 'active' : ''; ?>" href="#services">Services</a></li>
-                            <li class="navbar-item"><a class="nav-link <?php ($active_page == '#contact-us') ? 'active' : ''; ?>" href="#contact_form">Contact Us</a></li>
+                            <li class="navbar-item <?php echo ($active_page == 'index') ? 'highlighted' : ''; ?>"><a class="nav-link" href="index.php">Home</a></li>                    
+                            <li class="navbar-item <?php echo ($active_page == 'about') ? 'highlighted' : ''; ?>"><a class="nav-link" href="about.php">About Us</a></li>
+                            <li class="navbar-item <?php echo ($active_page == 'services') ? 'highlighted' : ''; ?>"><a class="nav-link" href="services.php">Services</a></li>
+                            <li class="navbar-item <?php echo ($active_page == 'pricing') ? 'highlighted' : ''; ?>"><a class="nav-link" href="pricing.php">Pricing</a></li>
+                            <li class="navbar-item <?php echo ($active_page == 'team') ? 'highlighted' : ''; ?>"><a class="nav-link" href="team.php">Team</a></li>
+                            <li class="navbar-item <?php echo ($active_page == 'contact') ? 'highlighted' : ''; ?>"><a class="nav-link" href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>   
