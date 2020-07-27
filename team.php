@@ -21,6 +21,13 @@
 				<h2>Waswa Rodgers</h2>
 				<p class="job-title">Web Designer</p>
 				<p class="about">The guy is cool. The guy is cool. The guy is cool. The guy is cool. The guy is cool.</p>
+				<a href="#" class="btn">Contact</a>
+				<ul class="social-media">
+					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -28,3 +35,4 @@
 
 
 <?php include_once('includes/footer.php'); ?>
+<script type="text/javascript" src="js/all.js"></script>
