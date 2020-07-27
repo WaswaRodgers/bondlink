@@ -12,6 +12,11 @@
 ?>
 
 <style type="text/css">
+
+	body {
+		overflow-x: hidden;
+	}
+
 	a{
 		text-decoration: none;
 		color: #fff;
@@ -170,6 +175,7 @@
 
     	.card {
     		margin: 2rem;
+    		transition: opacity .5s;
     	}
 
     	@keyframes fadeIn {
@@ -197,6 +203,10 @@
     	.card:nth-child(4) {
     		animation: fadeIn .5s 2s backwards;
     	}
+
+    	.card:hover {
+    		transform: scale(1.05);
+    	}
     }
 
 
@@ -207,7 +217,7 @@
 		<h1>Meet The Team</h1>
 		<div class="card-wrapper">
 			<div class="card">
-				<img src="images/service_img1.png" alt="Card-background" class="card-img">
+				<img src="images/portfolio1.jpg" alt="Card-background" class="card-img">
 				<img src="images/testimonial_img2.jpg" alt="Profile-image" class="profile-img">
 				<h2>Waswa Rodgers</h2>
 				<p class="job-title">Web Designer</p>
@@ -222,9 +232,9 @@
 			</div>
 
 			<div class="card">
-				<img src="images/service_img1.png" alt="Card-background" class="card-img">
+				<img src="images/portfolio1.jpg" alt="Card-background" class="card-img">
 				<img src="images/testimonial_img2.jpg" alt="Profile-image" class="profile-img">
-				<h2>Nasimiyu Damarys</h2>
+				<h2>Nasimiyu Dama</h2>
 				<p class="job-title">Typist</p>
 				<p class="about">The girl is cool. The girl is cool. The girl is cool. The girl is cool. The girl is cool.</p>
 				<a href="#" class="btn">Contact</a>
@@ -237,10 +247,25 @@
 			</div>
 
 			<div class="card">
-				<img src="images/service_img1.png" alt="Card-background" class="card-img">
+				<img src="images/portfolio1.jpg" alt="Card-background" class="card-img">
 				<img src="images/testimonial_img2.jpg" alt="Profile-image" class="profile-img">
 				<h2>Nakhisa Julius</h2>
 				<p class="job-title">Financial Advisor</p>
+				<p class="about">The guy is cool. The guy is cool. The guy is cool. The guy is cool. The guy is cool.</p>
+				<a href="#" class="btn">Contact</a>
+				<ul class="social-media">
+					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<img src="images/portfolio1.jpg" alt="Card-background" class="card-img">
+				<img src="images/testimonial_img2.jpg" alt="Profile-image" class="profile-img">
+				<h2>Mwele Isaac</h2>
+				<p class="job-title">Prifessional Chef</p>
 				<p class="about">The guy is cool. The guy is cool. The guy is cool. The guy is cool. The guy is cool.</p>
 				<a href="#" class="btn">Contact</a>
 				<ul class="social-media">
