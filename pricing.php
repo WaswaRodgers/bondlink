@@ -14,7 +14,40 @@
 	.pricingTable {
 		background: linear-gradient(-30deg, #690657,#baefb3);
 		text-align: center;
+		padding: 30px 12px 12px;
+		margin: 0 15px;
+		border-radius: 20px;
+		box-shadow: 0 0 20px -5px rgba(0,0,0,0.2);
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
 	}
+
+	.pricingTable:before {
+		content: '';
+		background: linear-gradient(30deg, #baefb3, #690657);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		clip-path: polygon(0 0, 0% 100%, 100% 0);
+	}
+
+	.pricingTable .pricingTable-header {
+		color: #fff;
+		margin: 0 0 20px 0;
+	}
+
+	.pricingTable .price-value .amount {
+		font-size: 30px;
+		font-weight: 600;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+
 </style>
 
 <div class="container">
