@@ -76,7 +76,7 @@
         <script src="js/isotope.js"></script>
         <script src="js/isotope-active.js"></script>
         <script src="js/jquery.fancybox.js?v=2.1.5"></script>
-
+        <script src="js/popper.min.js"></script>
         <script src="js/jquery.scrollUp.min.js"></script>
 
         <script src="js/main.js"></script>

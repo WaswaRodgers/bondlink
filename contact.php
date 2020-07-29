@@ -17,8 +17,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         
-                        <div class="footer_item">
-                            <h4>Contact Us</h4>
+                        <div class="contact">
+                            <h2>Contact Us</h2>
                                 <ul class="list-unstyled footer_contact">
                                     <li><a href=""><span class="fa fa-map-marker"></span>3rd Flr. Utalii Hse, Utalii Street P.O BOX 1184 - 00100 Nairobi</a></li>
                                     <li><a href=""><span class="fa fa-envelope"></span> finance@bondlinkexperts.co.ke</a></li>
@@ -28,6 +28,7 @@
                         
                     </div>
                     <form role="form" class="form-inline text-right col-md-6" >
+                        <h2>Shoot Us a Message!</h2>
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Name">
                         </div>
